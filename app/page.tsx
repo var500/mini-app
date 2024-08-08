@@ -35,6 +35,7 @@ export default function Home() {
             <li>Username: {userData.username || "N/A"}</li>
             <li>Language Code: {userData.language_code}</li>
             <li>Is Premium: {userData.is_premium ? "Yes" : "No"}</li>
+            <li>Photo: {userData.photo_url ? "Yes" : "No"}</li>
           </ul>
         </>
       ) : (
